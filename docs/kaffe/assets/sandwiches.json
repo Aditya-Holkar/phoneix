@@ -1,0 +1,39 @@
+[
+    {
+      "name": "Paneer Tikka Sandwich",
+      "description": "Grilled paneer tikka with mint chutney in a sandwich.",
+      "price": "₹120",
+      "image": "paneer_tikka_sandwich.jpg"
+    },
+    {
+      "name": "Aloo Tikki Sandwich",
+      "description": "Spicy aloo tikki with tamarind sauce in a sandwich.",
+      "price": "₹90",
+      "image": "aloo_tikki_sandwich.jpg"
+    },
+    {
+      "name": "Veggie Grilled Sandwich",
+      "description": "Assorted vegetables grilled to perfection in a sandwich.",
+      "price": "₹110",
+      "image": "veggie_grilled_sandwich.jpg"
+    },
+    {
+      "name": "Bombay Sandwich",
+      "description": "A popular Mumbai street food sandwich with a tangy twist.",
+      "price": "₹95",
+      "image": "bombay_sandwich.jpg"
+    },
+    {
+      "name": "Egg Sandwich",
+      "description": "Scrambled egg filling in a sandwich with mayo.",
+      "price": "₹120",
+      "image": "egg_sandwich.jpg"
+    },
+    {
+      "name": "Chilli Cheese Sandwich",
+      "description": "Spicy chilli cheese filling in a grilled sandwich.",
+      "price": "₹130",
+      "image": "chilli_cheese_sandwich.jpg"
+    }
+  ]
+  
