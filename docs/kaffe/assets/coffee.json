@@ -1,0 +1,46 @@
+[
+    {
+      "name": "Espresso",
+      "description": "A shot of intense, rich espresso.",
+      "price": "₹50",
+      "image": "espresso.jpg"
+    },
+    {
+      "name": "Cappuccino",
+      "description": "Espresso with steamed milk and frothy foam.",
+      "price": "₹80",
+      "image": "cappuccino.jpg"
+    },
+    {
+      "name": "Latte",
+      "description": "Espresso with steamed milk and a small amount of foam.",
+      "price": "₹90",
+      "image": "latte.jpg"
+    },
+    {
+      "name": "Mocha",
+      "description": "Espresso with hot chocolate, milk, and whipped cream.",
+      "price": "₹100",
+      "image": "mocha.jpg"
+    },
+    {
+      "name": "Americano",
+      "description": "Espresso with hot water for a lighter taste.",
+      "price": "₹70",
+      "image": "americano.jpg"
+    },
+    {
+      "name": "Iced Coffee",
+      "description": "Chilled coffee served over ice.",
+      "price": "₹60",
+      "image": "iced_coffee.jpg"
+    },
+    
+    {
+      "name": "Irish Coffee",
+      "description": "Coffee with Irish whiskey, sugar, and cream.",
+      "price": "₹120",
+      "image": "irish_coffee.jpg"
+    }
+  ]
+  

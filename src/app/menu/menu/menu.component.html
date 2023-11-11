@@ -1,0 +1,249 @@
+<!-- <h1>Menu</h1>
+<div class="accordian">
+	<ul>
+		<li>
+			<a routerLink="coffee">
+				<div class="content img1">
+					Coffee<br><br>
+					"कॉफी - जगण्याचं स्वाद, जागण्याचं शक्ती!" 
+				</div>
+
+			</a>
+		</li>
+		<li>
+			<a routerLink="dessert">
+				<div class="content img2">
+					Dessert<br><br>
+					"कॉफी - जगण्याचं स्वाद, जागण्याचं शक्ती!" 
+				</div>
+			</a>
+		</li>
+		<li>
+			<a routerLink="mojito">
+				<div class="content img3">
+					Mojito<br><br>
+					"कॉफी - जगण्याचं स्वाद, जागण्याचं शक्ती!" 
+				</div>
+			</a>
+		</li>
+		<li>
+			<a routerLink="sandwich">
+				<div class="content img4">
+					Sandwich<br><br>
+					"कॉफी - जगण्याचं स्वाद, जागण्याचं शक्ती!" 
+				</div>
+			</a>
+		</li>
+		<li>
+			<a routerLink="snacks">
+				<div class="content img5">
+					Snacks<br><br>
+					"कॉफी - जगण्याचं स्वाद, जागण्याचं शक्ती!" 
+				</div>
+			</a>
+		</li>	</ul>
+</div>
+
+
+<div class="large">
+<router-outlet></router-outlet>
+</div>
+
+
+<div class="small">
+<app-coffee></app-coffee>
+<app-dessert></app-dessert>
+<app-mojito></app-mojito>
+<app-sandwich></app-sandwich>
+<app-snacks></app-snacks>
+</div> -->
+
+
+
+
+<ul id="accord1" class="accordian">
+	<li>
+		<header class="head coffee blur">
+			<div class="bard">
+				<!-- <div class="wrapper">
+					<img src='../../../assets/coffe.jpeg' class="cover-image" />
+				</div> -->
+				<img src="../../../assets/coffee-logo.png" class="title" />
+				<img src="../../../assets/coffee-cutout.png" class="character" />
+			</div>
+		</header>
+		<section>
+			<div class="ac-list">
+				<ng-container *ngFor="let coffeeItem of coffeeItems">
+					<div class="ac-item">
+						<a href="#">
+							<div class="item">
+								<div class="it-image">
+									<img [src]="'assets/' + coffeeItem.image" alt="Coffee Image">
+								</div>
+								<div class="details">
+									<h4>{{ coffeeItem.name }}</h4>
+									<p>{{ coffeeItem.description }}</p>
+									<p class="price">Price: {{ coffeeItem.price }}</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</ng-container>
+			</div>
+		</section>
+	</li>
+	<li>
+		<header class="head dessert blur">
+			<div class="bard">
+				<!-- <div class="wrapper">
+						<img src="../../../assets/coffe.jpeg" class="cover-image" />
+					</div> -->
+				<img src="../../../assets/dessert-logo.png" class="title" />
+				<img src="../../../assets/dessert-cutout.png" class="character" />
+			</div>
+		</header>
+		<section>
+			<div class="ac-list">
+			<ng-container *ngFor="let dessertItem of dessertItems">
+				<div class="ac-item">
+				<a href="#">
+					<div class="item">
+						<div class="it-image">
+							<img [src]="'assets/' + dessertItem.image" alt="Dessert Image">
+						</div>
+						<div class="details">
+							<h4>{{ dessertItem.name }}</h4>
+							<p>{{ dessertItem.description }}</p>
+							<p>Price: {{ dessertItem.price }}</p>
+						</div>
+					</div>
+				</a>
+				</div>
+			</ng-container>
+	</div>>
+	</section>
+	</li>
+	<li>
+		<header class="head mojito blur">
+			<div class="bard">
+				<!-- <div class="wrapper">
+						<img src='../../../assets/coffe.jpeg' class="cover-image" />
+					</div> -->
+				<img src="../../../assets/mojito-logo.png" class="title" />
+				<img src="../../../assets/mojito-cutout.png" class="character" />
+			</div>
+		</header>
+		<section>
+			<div class="ac-list">
+			<ng-container *ngFor="let mojitoItem of mojitoItems">
+				<div class="ac-item">
+				<a href="#">
+					<div class="item">
+						<div class="it-image">
+							<img [src]="'assets/' + mojitoItem.image" alt="Mojito Image">
+						</div>
+						<div class="details">
+							<h4>{{ mojitoItem.name }}</h4>
+							<p>{{ mojitoItem.description }}</p>
+							<p>Price: {{ mojitoItem.price }}</p>
+						</div>
+					</div>
+				</a>
+				</div>
+			</ng-container>
+	</div>
+	</section>
+	</li>
+
+
+	<li>
+		<header class="head sandwich blur">
+			<div class="bard">
+				<!-- <div class="wrapper">
+						<img src='../../../assets/coffe.jpeg' class="cover-image" />
+					</div> -->
+				<img src="../../../assets/sandwich-logo.png" class="title" />
+				<img src="../../../assets/sandwich-cutout.png" class="character" />
+			</div>
+		</header>
+		<section>
+			<div class="ac-list">
+			<ng-container *ngFor="let sandwichItem of sandwichItems">
+				<div class="ac-item">
+				<a href="#">
+					<div class="item">
+						<div class="it-image">
+							<img [src]="'assets/' + sandwichItem.image" alt="Sandwich Image">
+						</div>
+						<div class="details">
+							<h4>{{ sandwichItem.name }}</h4>
+							<p>{{ sandwichItem.description }}</p>
+							<p>Price: {{ sandwichItem.price }}</p>
+						</div>
+					</div>
+				</a>
+				</div>
+			</ng-container>
+</div>
+	</section>
+	</li>
+
+
+
+	<li>
+		<header class="head snacks blur">
+
+			<div class="bard">
+				<!-- <div class="wrapper">
+						<img src='../../../assets/coffe.jpeg' class="cover-image" />
+					</div> -->
+				<img src="../../../assets/snacks-logo.png" class="title" />
+				<img src="../../../assets/snacks-cutout.png" class="character" />
+			</div>
+
+		</header>
+		<section>
+			<div class="ac-list">
+			<ng-container *ngFor="let snackItem of snackItems">
+				<div class="ac-item">
+				<a href="#">
+					<div class="item">
+						<div class="it-image">
+							<img [src]="'assets/' + snackItem.image" alt="Snack Image">
+						</div>
+						<div class="details">
+							<h4>{{ snackItem.name }}</h4>
+							<p>{{ snackItem.description }}</p>
+							<p>Price: {{ snackItem.price }}</p>
+						</div>
+					</div>
+				</a>
+				</div>
+			</ng-container>
+</div>
+	</section>
+	</li>
+</ul>
+
+
+<style>
+.cont1 {
+  position: relative;
+}
+
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This ensures the image covers the entire container */
+  z-index: 1; /* Set a higher z-index than the first image */
+}
+</style>
+
+<div class="cont1">
+  <img src="../../assets/first.JPG" alt="" width="100%" height="300rem">
+  <img class="bg-img" src="../../assets/background.png" alt="">
+</div>

@@ -1,0 +1,47 @@
+<!-- <div class="accordian ">
+  <ul>
+    <li>
+      <h3 class="title"><span class="fa fa-plus"></span> </h3>
+      <ul>
+        <li *ngFor="let coffeeItem of coffeeItems">
+          <a href="#">
+            <div class="coffee-item">
+              <div class="coffee-image">
+                <img [src]="'assets/' + coffeeItem.image" alt="Coffee Image">
+              </div>
+              <div class="coffee-details">
+                <h4>{{ coffeeItem.name }}</h4>
+                <p>{{ coffeeItem.description }}</p>
+                <p class="price">Price: {{ coffeeItem.price }}</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div> -->
+
+<div class="large">
+  <ul>
+    <li>
+      <h3 class="title"><span class="fa fa-plus"></span> coffee </h3>
+      <ul>
+        <li *ngFor="let coffeeItem of coffeeItems">
+          <a href="#">
+            <div class="coffee-item">
+              <div class="coffee-image">
+                <img [src]="'assets/' + coffeeItem.image" alt="Coffee Image">
+              </div>
+              <div class="coffee-details">
+                <h4>{{ coffeeItem.name }}</h4>
+                <p>{{ coffeeItem.description }}</p>
+                <p class="price">Price: {{ coffeeItem.price }}</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>

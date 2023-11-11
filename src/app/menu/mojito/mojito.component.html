@@ -1,0 +1,48 @@
+<div class="accordian ">
+  <ul>
+    <li>
+      <h3 class="title"><span class="fa fa-plus"></span> Mojitos </h3>
+      <ul>
+        <li *ngFor="let mojitoItem of mojitoItems">
+          <a href="#">
+            <div class="mojito-item">
+              <div class="mojito-image">
+                <img [src]="'assets/' + mojitoItem.image" alt="Mojito Image">
+              </div>
+              <div class="mojito-details">
+                <h4>{{ mojitoItem.name }}</h4>
+                <p>{{ mojitoItem.description }}</p>
+                <p>Price: {{ mojitoItem.price }}</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+
+<div class="large ">
+  <ul>
+    <li>
+      <h3 class="title"><span class="fa fa-plus"></span> Mojitos </h3>
+      <ul>
+        <li *ngFor="let mojitoItem of mojitoItems">
+          <a href="#">
+            <div class="mojito-item">
+              <div class="mojito-image">
+                <img [src]="'assets/' + mojitoItem.image" alt="Mojito Image">
+              </div>
+              <div class="mojito-details">
+                <h4>{{ mojitoItem.name }}</h4>
+                <p>{{ mojitoItem.description }}</p>
+                <p>Price: {{ mojitoItem.price }}</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>

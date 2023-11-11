@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Classic Mojito",
+      "description": "Refreshing classic mojito with lime, mint, and rum.",
+      "price": "$8.99",
+      "image": "classic_mojito.jpeg"
+    },
+    {
+      "name": "Strawberry Mojito",
+      "description": "Strawberry mojito with a hint of sweetness.",
+      "price": "$9.99",
+      "image": "strawberry_mojito.jpeg"
+    },
+    {
+      "name": "Coconut Mojito",
+      "description": "Coconut-infused mojito for a tropical twist.",
+      "price": "$10.99",
+      "image": "coconut_mojito.jpeg"
+    },
+    {
+      "name": "Passion Fruit Mojito",
+      "description": "Exotic passion fruit mojito with a tangy flavor.",
+      "price": "$9.99",
+      "image": "passion_fruit_mojito.jpeg"
+    },
+    {
+      "name": "Pineapple Mojito",
+      "description": "Tropical pineapple mojito with a refreshing taste.",
+      "price": "$10.99",
+      "image": "pineapple_mojito.jpeg"
+    },
+    {
+      "name": "Mint Julep Mojito",
+      "description": "A twist on the classic with fresh mint and bourbon.",
+      "price": "$11.99",
+      "image": "mint_julep_mojito.jpeg"
+    },
+    {
+      "name": "Blueberry Mojito",
+      "description": "Blueberry-infused mojito with a burst of fruity flavor.",
+      "price": "$9.99",
+      "image": "blueberry_mojito.jpeg"
+    },
+    {
+      "name": "Ginger Mojito",
+      "description": "Spicy ginger mojito for a zesty experience.",
+      "price": "$10.99",
+      "image": "ginger_mojito.jpeg"
+    },
+    {
+      "name": "Watermelon Mojito",
+      "description": "Cooling watermelon mojito perfect for hot days.",
+      "price": "$9.99",
+      "image": "watermelon_mojito.jpeg"
+    },
+    {
+      "name": "Cucumber Mojito",
+      "description": "Cucumber-infused mojito with a crisp, refreshing taste.",
+      "price": "$10.99",
+      "image": "cucumber_mojito.jpeg"
+    }
+  ]
+  

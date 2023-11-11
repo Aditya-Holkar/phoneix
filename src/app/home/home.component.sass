@@ -1,0 +1,569 @@
+// $card-height: 300px
+// $card-width: calc(#{$card-height} / 1.5)
+
+// *
+//   box-sizing: border-box
+
+// body
+//   width: 100vw
+//   height: 100vh
+//   margin: 0
+//   display: flex
+//   justify-content: center
+//   align-items: center
+//   background: #191c29
+
+// .card
+//   width: $card-width
+//   height: $card-height
+//   position: relative
+//   display: flex
+//   justify-content: center
+//   align-items: flex-end
+//   padding: 0 36px
+//   margin: 0 50px
+//   perspective: 2500px
+
+//   .cover-image
+//     width: 100%
+//     height: 100%
+//     object-fit: cover
+
+//   .wrapper
+//     transition: all 0.5s
+//     position: absolute
+//     width: 100%
+//     z-index: -1
+
+//   &:hover .wrapper
+//     transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0)
+//     box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75)
+//     -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75)
+//     -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75)
+
+//   .wrapper::before,
+//   .wrapper::after
+//     content: ""
+//     opacity: 0
+//     width: 100%
+//     height: 80px
+//     transition: all 0.5s
+//     position: absolute
+//     left: 0
+
+//   .wrapper::before
+//     top: 0
+//     height: 100%
+//     background-image: linear-gradient(to top, transparent 46%, rgba(12, 13, 19, 0.5) 68%, rgba(12, 13, 19) 97%)
+
+//   .wrapper::after
+//     bottom: 0
+//     opacity: 1
+//     background-image: linear-gradient(to bottom, transparent 46%, rgba(12, 13, 19, 0.5) 68%, rgba(12, 13, 19) 97%)
+
+//   &:hover .wrapper::before,
+//   &:hover .wrapper::after
+//     opacity: 1
+
+//   &:hover .wrapper::after
+//     height: 120px
+
+//   .title
+//     width: 100%
+//     transition: transform 0.5s
+
+//   &:hover .title
+//     transform: translate3d(0%, -50px, 100px)
+
+//   .character
+//     width: 100%
+//     opacity: 0
+//     transition: all 0.5s
+//     position: absolute
+//     z-index: -1
+
+//   &:hover .character
+//     opacity: 1
+//     transform: translate3d(0%, -30%, 100px)
+
+// 2nd one    
+// .carousel
+//   width: 100%
+//   height: auto
+
+//   .carousel-item
+//     width: 100%
+//     height: auto
+
+// .carousel
+//   margin-left: 0%
+//   margin-right: 0%
+
+//   ul.slides
+//     display: block
+//     position: relative
+//     height: 25rem
+//     margin: 0
+//     padding: 0
+//     overflow: hidden
+//     list-style: none
+
+//     * 
+//       user-select: none
+//       -ms-user-select: none
+//       -moz-user-select: none
+//       -khtml-user-select: none
+//       -webkit-user-select: none
+//       -webkit-touch-callout: none
+
+//     input
+//       display: none
+
+//   .slide-container
+//     display: block
+
+//   .slide-image
+//     display: block
+//     position: absolute
+//     width: 100%
+//     height: 100%
+//     top: 0
+//     opacity: 0
+//     transition: all .7s ease-in-out
+
+//     img
+//       width: auto
+//       min-width: 100%
+//       height: 100%
+
+//   .carousel-controls
+//     position: absolute
+//     top: 0
+//     left: 0
+//     right: 0
+//     z-index: 999
+//     font-size: 100px
+//     line-height: 25rem
+//     color: #fff
+
+//     label
+//       display: none
+//       position: absolute
+//       padding: 0 20px
+//       opacity: 0
+//       transition: opacity .2s
+//       cursor: pointer
+
+//   .slide-image:hover + .carousel-controls label
+//     opacity: 0.5
+
+//   .carousel-controls label:hover
+//     opacity: 1
+
+//   .prev-slide
+//     width: 49%
+//     text-align: left
+//     left: 0
+
+//   .next-slide
+//     width: 49%
+//     text-align: right
+//     right: 0
+
+//   .carousel-dots
+//     position: absolute
+//     left: 0
+//     right: 0
+//     bottom: 20px
+//     z-index: 999
+//     text-align: center
+
+//   .carousel-dot
+//     display: inline-block
+//     width: 30px
+//     height: 30px
+//     border-radius: 50%
+    // background-color: #fff
+//     opacity: 0.5
+//     margin: 10px
+
+//   input:checked + .slide-container .slide-image
+//     opacity: 1
+//     transform: scale(1)
+//     transition: opacity 1s ease-in-out
+
+//   input:checked + .slide-container .carousel-controls label
+//     display: block
+
+//   #img-1:checked ~ .carousel-dots #img-dot-1,
+//   #img-2:checked ~ .carousel-dots #img-dot-2,
+//   #img-3:checked ~ .carousel-dots #img-dot-3,
+//   #img-4:checked ~ .carousel-dots #img-dot-4,
+//   #img-5:checked ~ .carousel-dots #img-dot-5,
+//   #img-6:checked ~ .carousel-dots #img-dot-6
+//     opacity: 1
+
+//   input:checked + .slide-container .nav label
+//     display: block
+
+//3rd one 
+// .container
+//     max-width: 1000px
+//     margin: 0px auto
+//     display: flex
+//     flex-wrap: wrap
+//     justify-content: space-around
+
+// .untoldcoding:hover:nth-child(2)
+//     box-shadow: 10px 10px 50px #00A651
+
+// .untoldcoding
+//     position: relative
+//     margin: 20px 0
+//     width: 300px
+//     height: 400px
+//     background: #A6CE39
+//     transform-style: preserve-3d
+//     transform: perspective(2000px)
+//     transition: 1s
+
+//     &:hover
+//         z-index: 1111
+//         transform: perspective(500px) rotate(-5deg)
+
+//         box-shadow: 10px 10px 50px #00A651
+
+//     & .img-container
+//         position: relative
+//         width: 100%
+//         height: 100%
+//         border: 5px solid #A6CE39
+//         box-sizing: border-box
+//         transform-origin: left
+//         z-index: 1
+//         transition: 1s
+
+//         button.know-more-button
+//             position: absolute
+//             bottom: 2px
+//             left: 50%
+//             transform: translateX(-50%)
+//             // padding: 10px 20px
+//             background-color: #00A651
+//             color: #fff
+//             border: none
+//             cursor: pointer
+//             transition: background-color 0.3s
+
+//             &:hover button.know-more-button
+//                 background-color: #009140
+
+//     & .img-container img
+//         position: absolute
+//         left: 0
+//         top: 0
+//         height: 100%
+//         width: 100%
+//         object-fit: cover
+
+//     &:hover .img-container
+//         transform: rotateY(-135deg)
+
+//     & &-details
+//         position: absolute
+//         left: 0
+//         top: 0
+//         box-sizing: border-box
+//         padding: 20px
+//         color: #ffffff
+
+//     & &-details h2
+//         margin: 0
+//         padding: 0.5em 0
+//         text-transform: uppercase
+//         font-size: 2em
+//         color: #00A651
+
+//     & &-details p
+//         margin: 0
+//         padding: 0
+//         line-height: 25px
+//         font-size: 1.1em
+
+@media screen and (min-width: 1340px) 
+  body
+    // Common styles for all screen sizes 
+    background-repeat: no-repeat
+    background-attachment: fixed
+    background-size: 100% 100%
+    // Default background image for all screen sizes
+    background-image: url("../../assets/images (7).jpeg")
+
+  /* Updated styles for larger screens */
+  .don
+    display: flex
+    width: 100%
+    font-size: 20px
+    background-color: #00A651
+
+  .cont1
+    flex: 1
+    text-align: center
+    position: relative
+    img
+      width: 100%
+      height: auto
+      border-bottom-right-radius: 50%
+      // border-top-left-radius: 50%
+      /* Modify other image styles as needed */
+    img[src="../../assets/first.JPG"]
+      border-bottom-left-radius: 50%
+      border-bottom-right-radius: 0%
+
+    img[src="../../assets/first(1).JPG"]
+      display: none  
+
+    .bg-img
+      display: none
+
+  .cont2
+    flex: 1
+    text-align: center
+    border-top-left-radius: 0
+    border-bottom-left-radius: 0
+    color: white
+    text-shadow: 2px 2px 7px #111111
+    position: relative
+    padding: 10px 10px 0px 10px
+
+    img[src="../../assets/f1.png"]
+      height: auto
+      width: auto
+      max-width: 300px
+      max-height: 230px 
+      float: left
+      
+
+  
+    img[src="../../assets/coffee-unscreen.gif"]  
+      height: auto
+      width: auto 
+      max-width: 45%
+      float: right 
+      margin-right: 30px
+
+    img[src="../../assets/giphy (1).gif"]  
+      height: auto
+      width: auto
+      max-width: 70%
+      float: center
+      
+
+    .bd
+      font-size: 150%
+      /* Modify other .bd styles as needed */  
+
+    .bg-img
+      display: none
+
+    img[src="../../assets/dek-removebg-preview.png"]
+      display: none
+
+  .cont1.sm  
+    display: none
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1340px) and (min-width: 768px)
+  body
+    // Common styles for all screen sizes 
+    background-repeat: no-repeat
+    background-attachment: fixed
+    background-size: 100% 100%
+    // Default background image for all screen sizes
+    background-image: url("../../assets/images (7).jpeg")
+
+  /* Updated styles for larger screens */
+  .don
+    display: flex
+    width: 100%
+    font-size: 20px
+    background-color: #00A651
+
+  .cont1
+    flex: 1
+    text-align: center
+    position: relative
+    img
+      width: 100%
+      height: auto
+      border-bottom-right-radius: 50%
+      // border-top-left-radius: 50%
+      /* Modify other image styles as needed */
+    img[src="../../assets/first.JPG"]
+      border-bottom-left-radius: 50%
+      border-bottom-right-radius: 0%
+
+
+
+
+    .bg-img
+      display: none
+
+  .cont1.sm  
+    display: none
+
+  .cont2
+    flex: 1
+    text-align: center
+    border-top-left-radius: 0
+    border-bottom-left-radius: 0
+    color: white
+    text-shadow: 2px 2px 7px #111111
+    position: relative
+    padding: 40px 65px 0px 65px
+
+
+
+    img[src="../../assets/f1.png"]
+      display: none
+      
+
+    img[src="../../assets/coffee-unscreen.gif"]  
+      display: none
+
+    img[src="../../assets/giphy (1).gif"]  
+      display: none 
+      
+
+    .bd
+      font-size: 150%
+      /* Modify other .bd styles as needed */  
+
+    img[src="../../assets/dek-removebg-preview.png"]
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      object-fit: auto
+      z-index: 1
+      border-bottom-right-radius: 0%
+      border-top-left-radius: 0%
+
+    .bg-img
+      display: none  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for small screens (e.g., screens with a max width of 768px) */
+@media screen and (max-width: 768px)
+  body
+    /* Specify a different background image for small screens */
+    background-image: url("../../assets/images (6).jpeg")
+    background-size: 100% 100%
+    // margin-top: 20px 
+    background-repeat: no-repeat
+    background-attachment: fixed
+
+  .don
+    display: block
+    width: 100%
+    font-size: 20px
+    background-color: #00A651
+
+  .cont1
+    direction: center
+    position: relative
+    img
+      // width: 10rem
+      // height: 15rem
+      // width: 70%
+      // height: 20rem
+      // border-right: 1rem solid #A6CE39
+      // border-top: 1rem solid #A6CE39
+      // border-bottom: 1rem solid #A6CE39
+      // border-top-right-radius: 20px
+      // border-bottom-right-radius: 20px
+    img[src="../../assets/first.JPG"]
+      display: none  
+
+      
+
+    .bg-img
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      object-fit: contain
+      z-index: 1
+      border-bottom-right-radius: 0%
+      border-top-left-radius: 0%
+
+  .cont2
+    text-align: center
+    // background-color: #00A651
+    // border-left: 1rem solid #00A651
+    // border-top: 1rem solid #00A651
+    // border-bottom: 1rem solid #00A651
+    border-top-left-radius: 20px
+    border-bottom-left-radius: 20px
+    color: white
+    text-shadow: 2px 2px 7px #111111
+    position: relative
+    padding: 55px 70px 70px 70px
+
+    img[src="../../assets/f1.png"]
+      display: none
+      
+
+    img[src="../../assets/coffee-unscreen.gif"]  
+      display: none
+
+    img[src="../../assets/giphy (1).gif"]  
+      display: none 
+
+    .bd
+      font-size: 150%
+
+    .bg-img
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      object-fit: auto
+      z-index: 1
+      border-bottom-right-radius: 0%
+      border-top-left-radius: 0%
+
+
+    img[src="../../assets/dek-removebg-preview.png"]
+      display: none 

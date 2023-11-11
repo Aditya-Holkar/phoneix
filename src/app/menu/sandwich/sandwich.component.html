@@ -1,0 +1,48 @@
+<div class="accordian ">
+  <ul>
+    <li>
+      <h3 class="title"><span class="fa fa-plus"></span> Sandwiches </h3>
+      <ul>
+        <li *ngFor="let sandwichItem of sandwichItems">
+          <a href="#">
+            <div class="sandwich-item">
+              <div class="sandwich-image">
+                <img [src]="'assets/' + sandwichItem.image" alt="Sandwich Image">
+              </div>
+              <div class="sandwich-details">
+                <h4>{{ sandwichItem.name }}</h4>
+                <p>{{ sandwichItem.description }}</p>
+                <p>Price: {{ sandwichItem.price }}</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+
+<div class="large ">
+  <ul>
+    <li>
+      <h3 class="title"><span class="fa fa-plus"></span> Sandwiches </h3>
+      <ul>
+        <li *ngFor="let sandwichItem of sandwichItems">
+          <a href="#">
+            <div class="sandwich-item">
+              <div class="sandwich-image">
+                <img [src]="'assets/' + sandwichItem.image" alt="Sandwich Image">
+              </div>
+              <div class="sandwich-details">
+                <h4>{{ sandwichItem.name }}</h4>
+                <p>{{ sandwichItem.description }}</p>
+                <p>Price: {{ sandwichItem.price }}</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
