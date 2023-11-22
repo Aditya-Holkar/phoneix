@@ -15,9 +15,6 @@ const routes: Routes = [
     path:"", component:HomeComponent
   },
   {
-    path:"home", component:HomeComponent
-  },
-  {
     path:"about", component:AboutComponent
   },
   // {
@@ -25,24 +22,9 @@ const routes: Routes = [
   //   loadChildren: () => import('./menu/menu.module').then(m => m.MenuModule)
   // },
   {
-    path:'menu', component:MenuComponent,children:[
-      {
-        path:"coffee", component: CoffeeComponent
-      },
-      {
-        path:"dessert", component: DessertComponent
-      },
-      {
-        path:"mojito", component: MojitoComponent
-      },
-      {
-        path:"sandwich", component: SandwichComponent
-      },
-      {
-        path:"snacks", component: SnacksComponent
-      }
-    ]
+    path:'menu', component:MenuComponent
   }
+
 ];
 
 @NgModule({

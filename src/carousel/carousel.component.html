@@ -1,0 +1,14 @@
+<!-- carousel.component.html -->
+
+<div class="carousel">
+    <div class="slide" *ngFor="let slide of slides; let i = index" [ngClass]="{'active': i === currentIndex}">
+      <img [src]="slide.image" alt="{{slide.title}}">
+      <div class="overlay">
+        <h3>{{slide.title}}</h3>
+        <p>{{slide.description}}</p>
+      </div>
+    </div>
+  </div>
+  <button class="arrow left" (click)="prevSlide()">‹</button>
+  <button class="arrow right" (click)="nextSlide()">›</button>
+  

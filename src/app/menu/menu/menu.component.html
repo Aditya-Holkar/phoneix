@@ -1,75 +1,12 @@
-<!-- <h1>Menu</h1>
-<div class="accordian">
-	<ul>
-		<li>
-			<a routerLink="coffee">
-				<div class="content img1">
-					Coffee<br><br>
-					"कॉफी - जगण्याचं स्वाद, जागण्याचं शक्ती!" 
-				</div>
-
-			</a>
-		</li>
-		<li>
-			<a routerLink="dessert">
-				<div class="content img2">
-					Dessert<br><br>
-					"कॉफी - जगण्याचं स्वाद, जागण्याचं शक्ती!" 
-				</div>
-			</a>
-		</li>
-		<li>
-			<a routerLink="mojito">
-				<div class="content img3">
-					Mojito<br><br>
-					"कॉफी - जगण्याचं स्वाद, जागण्याचं शक्ती!" 
-				</div>
-			</a>
-		</li>
-		<li>
-			<a routerLink="sandwich">
-				<div class="content img4">
-					Sandwich<br><br>
-					"कॉफी - जगण्याचं स्वाद, जागण्याचं शक्ती!" 
-				</div>
-			</a>
-		</li>
-		<li>
-			<a routerLink="snacks">
-				<div class="content img5">
-					Snacks<br><br>
-					"कॉफी - जगण्याचं स्वाद, जागण्याचं शक्ती!" 
-				</div>
-			</a>
-		</li>	</ul>
-</div>
-
-
-<div class="large">
-<router-outlet></router-outlet>
-</div>
-
-
-<div class="small">
-<app-coffee></app-coffee>
-<app-dessert></app-dessert>
-<app-mojito></app-mojito>
-<app-sandwich></app-sandwich>
-<app-snacks></app-snacks>
-</div> -->
-
-
-
-
 <ul id="accord1" class="accordian">
 	<li>
 		<header class="head coffee blur">
 			<div class="bard">
 				<!-- <div class="wrapper">
-					<img src='../../../assets/coffe.jpeg' class="cover-image" />
+					<img src='./assets/coffe.jpeg' class="cover-image" />
 				</div> -->
-				<img src="../../../assets/coffee-logo.png" class="title" />
-				<img src="../../../assets/coffee-cutout.png" class="character" />
+				<img src="./assets/coffee-logo.png" class="title" />
+				<img src="./assets/coffee-cutout.png" class="character" />
 			</div>
 		</header>
 		<section>
@@ -97,10 +34,10 @@
 		<header class="head dessert blur">
 			<div class="bard">
 				<!-- <div class="wrapper">
-						<img src="../../../assets/coffe.jpeg" class="cover-image" />
+						<img src="./assets/coffe.jpeg" class="cover-image" />
 					</div> -->
-				<img src="../../../assets/dessert-logo.png" class="title" />
-				<img src="../../../assets/dessert-cutout.png" class="character" />
+				<img src="./assets/dessert-logo.png" class="title" />
+				<img src="./assets/dessert-cutout.png" class="character" />
 			</div>
 		</header>
 		<section>
@@ -128,10 +65,10 @@
 		<header class="head mojito blur">
 			<div class="bard">
 				<!-- <div class="wrapper">
-						<img src='../../../assets/coffe.jpeg' class="cover-image" />
+						<img src='./assets/coffe.jpeg' class="cover-image" />
 					</div> -->
-				<img src="../../../assets/mojito-logo.png" class="title" />
-				<img src="../../../assets/mojito-cutout.png" class="character" />
+				<img src="./assets/mojito-logo.png" class="title" />
+				<img src="./assets/mojito-cutout.png" class="character" />
 			</div>
 		</header>
 		<section>
@@ -161,10 +98,10 @@
 		<header class="head sandwich blur">
 			<div class="bard">
 				<!-- <div class="wrapper">
-						<img src='../../../assets/coffe.jpeg' class="cover-image" />
+						<img src='./assets/coffe.jpeg' class="cover-image" />
 					</div> -->
-				<img src="../../../assets/sandwich-logo.png" class="title" />
-				<img src="../../../assets/sandwich-cutout.png" class="character" />
+				<img src="./assets/sandwich-logo.png" class="title" />
+				<img src="./assets/sandwich-cutout.png" class="character" />
 			</div>
 		</header>
 		<section>
@@ -196,10 +133,10 @@
 
 			<div class="bard">
 				<!-- <div class="wrapper">
-						<img src='../../../assets/coffe.jpeg' class="cover-image" />
+						<img src='./assets/coffe.jpeg' class="cover-image" />
 					</div> -->
-				<img src="../../../assets/snacks-logo.png" class="title" />
-				<img src="../../../assets/snacks-cutout.png" class="character" />
+				<img src="./assets/snacks-logo.png" class="title" />
+				<img src="./assets/snacks-cutout.png" class="character" />
 			</div>
 
 		</header>
@@ -224,6 +161,65 @@
 </div>
 	</section>
 	</li>
+
+	<li>
+		<header class="head shakes blur">
+		  <div class="bard">
+			<img src="./assets/shakes-logo.png" class="title" />
+			<img src="./assets/shakes-cutout.png" class="character" />
+		  </div>
+		</header>
+		<section>
+		  <div class="ac-list">
+			<ng-container *ngFor="let shakeItem of shakeItems">
+			  <div class="ac-item">
+				<a href="#">
+				  <div class="item">
+					<div class="it-image">
+					  <img [src]="'assets/' + shakeItem.image" alt="Shake Image">
+					</div>
+					<div class="details">
+					  <h4>{{ shakeItem.name }}</h4>
+					  <p>{{ shakeItem.description }}</p>
+					  <p class="price">Price: {{ shakeItem.price }}</p>
+					</div>
+				  </div>
+				</a>
+			  </div>
+			</ng-container>
+		  </div>
+		</section>
+	  </li>
+	
+	  <!-- Cold Coffee Section -->
+	  <li>
+		<header class="head cold-coffee blur">
+		  <div class="bard">
+			<img src="./assets/cold-coffee-logo.png" class="title" />
+			<img src="./assets/cold-coffee-cutout.png" class="character" />
+		  </div>
+		</header>
+		<section>
+		  <div class="ac-list">
+			<ng-container *ngFor="let coldCoffeeItem of coldCoffeeItems">
+			  <div class="ac-item">
+				<a href="#">
+				  <div class="item">
+					<div class="it-image">
+					  <img [src]="'assets/' + coldCoffeeItem.image" alt="Cold Coffee Image">
+					</div>
+					<div class="details">
+					  <h4>{{ coldCoffeeItem.name }}</h4>
+					  <p>{{ coldCoffeeItem.description }}</p>
+					  <p class="price">Price: {{ coldCoffeeItem.price }}</p>
+					</div>
+				  </div>
+				</a>
+			  </div>
+			</ng-container>
+		  </div>
+		</section>
+	  </li>
 </ul>
 
 
@@ -243,7 +239,4 @@
 }
 </style>
 
-<div class="cont1">
-  <img src="../../assets/first.JPG" alt="" width="100%" height="300rem">
-  <img class="bg-img" src="../../assets/background.png" alt="">
-</div>
+

@@ -12,6 +12,8 @@ export class MenuComponent {
   mojitoItems: any[] = [];
   sandwichItems: any[] = [];
   snackItems: any[] = [];
+coldCoffeeItems: any;
+shakeItems: any;
 
 
   constructor(private el: ElementRef ,private http: HttpClient) {
@@ -30,7 +32,12 @@ export class MenuComponent {
     this.http.get<any[]>('assets/snacks.json').subscribe((data) => {
       this.snackItems = data;
     });
-
+    this.http.get<any[]>('assets/shakes.json').subscribe((data) => {
+      this.shakeItems = data;
+    });
+    this.http.get<any[]>('assets/cold-coffee.json').subscribe((data) => {
+      this.coldCoffeeItems = data;
+    });
   }
 
 

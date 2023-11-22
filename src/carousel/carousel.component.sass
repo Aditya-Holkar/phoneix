@@ -1,0 +1,52 @@
+// carousel.component.scss
+
+.carousel 
+  position: relative
+  overflow: hidden
+  width: 100%
+  max-width: 800px // Adjust as needed
+  margin: auto
+
+
+.slide 
+  display: none
+  transition: opacity 0.5s
+
+
+.slide.active 
+  display: block
+
+
+img 
+  width: 100%
+  height: auto
+
+
+.overlay 
+  position: absolute
+  bottom: 0
+  left: 0
+  width: 100%
+  background: rgba(0, 0, 0, 0.5)
+  color: white
+  padding: 10px
+
+
+.arrow 
+  position: absolute
+  top: 50%
+  transform: translateY(-50%)
+  font-size: 24px
+  background: transparent
+  border: none
+  color: white
+  cursor: pointer
+
+
+.left 
+  left: 10px
+
+
+.right 
+  right: 10px
+

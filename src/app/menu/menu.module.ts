@@ -10,6 +10,7 @@ import { MojitoComponent } from './mojito/mojito.component';
 import { SandwichComponent } from './sandwich/sandwich.component';
 import { SnacksComponent } from './snacks/snacks.component';
 import { MenuComponent } from './menu/menu.component';
+import { ColdCoffeeComponent } from './cold-coffee/cold-coffee.component';
 
 
 
@@ -22,7 +23,8 @@ import { MenuComponent } from './menu/menu.component';
         MojitoComponent,
         SandwichComponent,
         SnacksComponent,
-        MenuComponent
+        MenuComponent,
+        ColdCoffeeComponent
   ],
   imports: [
     CommonModule,

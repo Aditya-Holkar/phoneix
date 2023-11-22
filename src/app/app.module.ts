@@ -12,6 +12,9 @@ import { AboutComponent } from './about/about.component';
 //modules
 import { MenuModule } from './menu/menu.module';
 import { FooterComponent } from './footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselComponent } from './carousel/carousel.component';
+
 
 
 @NgModule({
@@ -21,6 +24,7 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     AboutComponent,
     FooterComponent,
+    CarouselComponent,
     
 
   ],
@@ -29,7 +33,9 @@ import { FooterComponent } from './footer/footer.component';
     AppRoutingModule,
     MenuModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
