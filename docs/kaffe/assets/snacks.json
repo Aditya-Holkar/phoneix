@@ -1,0 +1,14 @@
+[
+  {
+  "name": "Nachos",
+  "description": "Crispy nacho chips.",
+  "price": "₹79",
+  "image": "nachos.jpg"
+},
+{
+  "name": "Cheese Nachos",
+  "description": "Nacho chips topped with cheese.",
+  "price": "₹99",
+  "image": "cheese_nachos.jpg"
+}
+]

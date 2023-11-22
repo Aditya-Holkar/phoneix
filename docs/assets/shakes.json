@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Chocolate Loaded Shake",
+        "description": "Shake loaded with chocolate goodness.",
+        "price": "₹350",
+        "image": "Chocolate-Shake.png"
+    },
+    {
+        "name": "Rasmalai Shake",
+        "description": "Shake with the flavor of Rasmalai.",
+        "price": "₹180",
+        "image": "rasmalai-shake.png"
+    },
+    {
+        "name": "Mango Shake",
+        "description": "Refreshing mango-flavored Shake.",
+        "price": "₹140",
+        "image": "Mango-Shake.png"
+    },
+    {
+        "name": "Berry Blast Shake",
+        "description": "Shake with a blast of berry flavors.",
+        "price": "₹140",
+        "image": "MixBerry-shake.png"
+    },
+    {
+        "name": "Butterscotch Shake",
+        "description": "Shake with butterscotch flavor.",
+        "price": "₹150",
+        "image": "butterscotch-shake.png"
+    },
+    {
+        "name": "Sitaphal Shake",
+        "description": "Shake with the flavor of sitaphal (custard apple).",
+        "price": "₹140",
+        "image": "sitaphal-shake.png"
+    },
+    {
+        "name": "Oreo Shake",
+        "description": "Shake with the classic Oreo flavor.",
+        "price": "₹150",
+        "image": "Oreo-Shake.png"
+    },
+    {
+        "name": "Biscoff Shake",
+        "description": "Shake with Biscoff flavor.",
+        "price": "₹150",
+        "image": "Biscoff-Shake.png"
+    },
+    {
+        "name": "Strawberry Shake",
+        "description": "Shake with the delicious taste of strawberries.",
+        "price": "₹160",
+        "image": "Srawberry-shake.png"
+    },
+    {
+        "name": "Pineapple Shake",
+        "description": "Shake with the tropical flavor of pineapple.",
+        "price": "₹140",
+        "image": "Pneapple-Shake.png"
+    },
+    {
+        "name": "Brownie Shake",
+        "description": "Shake with the indulgence of brownies.",
+        "price": "₹140",
+        "image": "brownie-shake.png"
+    },
+    {
+        "name": "Lavender Black Shake",
+        "description": "Shake with lavender flavor.",
+        "price": "₹140",
+        "image": "lavender-black-Shake.png"
+    },
+    {
+        "name": "Mango Coconut Shake",
+        "description": "Shake with the tropical combination of mango and coconut.",
+        "price": "₹140",
+        "image": "mango-coconut-Shake.png"
+    },
+    {
+        "name": "Rose Shake",
+        "description": "Shake with the floral essence of rose.",
+        "price": "₹140",
+        "image": "Rose-Shake.png"
+    }
+]

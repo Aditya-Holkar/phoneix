@@ -1,39 +1,74 @@
 [
-    {
-      "name": "Paneer Tikka Sandwich",
-      "description": "Grilled paneer tikka with mint chutney in a sandwich.",
-      "price": "₹120",
-      "image": "paneer_tikka_sandwich.jpg"
-    },
-    {
-      "name": "Aloo Tikki Sandwich",
-      "description": "Spicy aloo tikki with tamarind sauce in a sandwich.",
-      "price": "₹90",
-      "image": "aloo_tikki_sandwich.jpg"
-    },
-    {
-      "name": "Veggie Grilled Sandwich",
-      "description": "Assorted vegetables grilled to perfection in a sandwich.",
-      "price": "₹110",
-      "image": "veggie_grilled_sandwich.jpg"
-    },
-    {
-      "name": "Bombay Sandwich",
-      "description": "A popular Mumbai street food sandwich with a tangy twist.",
+  {
+      "name": "Chocolate Sandwich",
+      "description": "Sandwich filled with chocolate.",
+      "price": "₹119",
+      "image": "chocolate-sandwich.png"
+  },
+  {
+      "name": "Veg Sandwich",
+      "description": "Sandwich filled with assorted vegetables.",
+      "price": "₹69",
+      "image": "veg-sandwich.png"
+  },
+  {
+      "name": "Veg Cheese Sandwich",
+      "description": "Veg sandwich with cheese.",
+      "price": "₹89",
+      "image": "Veg-Cheese.png"
+  },
+  {
+      "name": "Veg Grill Sandwich",
+      "description": "Grilled sandwich with assorted veggies.",
+      "price": "₹69",
+      "image": "veg-grilled.png"
+  },
+  {
+      "name": "Veg Cheese Grill Sandwich",
+      "description": "Grilled sandwich with veggies and cheese.",
+      "price": "₹89",
+      "image": "veg-Cheese-Grilled.png"
+  },
+  {
+      "name": "Paneer Sandwich",
+      "description": "Sandwich with paneer (Indian cottage cheese).",
       "price": "₹95",
-      "image": "bombay_sandwich.jpg"
-    },
-    {
-      "name": "Egg Sandwich",
-      "description": "Scrambled egg filling in a sandwich with mayo.",
-      "price": "₹120",
-      "image": "egg_sandwich.jpg"
-    },
-    {
-      "name": "Chilli Cheese Sandwich",
-      "description": "Spicy chilli cheese filling in a grilled sandwich.",
-      "price": "₹130",
-      "image": "chilli_cheese_sandwich.jpg"
-    }
-  ]
-  
+      "image": "Paneer_Sandwich.png"
+  },
+  {
+      "name": "Paneer Cheese Sandwich",
+      "description": "Sandwich with paneer and cheese.",
+      "price": "₹105",
+      "image": "Paneer-cheese.png"
+  },
+  {
+      "name": "Cheese Bread",
+      "description": "Bread with cheese.",
+      "price": "₹69",
+      "image": "Cheese-Bread.png"
+  },
+  {
+      "name": "Cheese Corn Sandwich",
+      "description": "Sandwich with cheese and corn filling.",
+      "price": "₹95",
+      "image": "CheeseCorn-Sandwich.png"
+  },
+  {
+      "name": "Peri Peri Sandwich",
+      "description": "Sandwich with peri peri flavor.",
+      "price": "₹95",
+      "image": "Peri-Peri.png"
+  },
+  {
+      "name": "Green Sandwich",
+      "description": "Sandwich filled with green veggies.",
+      "price": "₹69",
+      "image": "Green-Sandwich.png"
+  },
+  {
+      "name": "Cheese Burst",
+      "description": "Sandwich with a burst of cheesy goodness.",
+      "price": "₹149",
+      "image": "Cheese-Burst.png"
+  }
+]

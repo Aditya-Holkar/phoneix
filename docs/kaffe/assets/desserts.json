@@ -1,0 +1,38 @@
+[
+  {
+      "name": "Blueberry Cheesecake",
+      "description": "Cheesecake with blueberry flavor.",
+      "price": "₹70",
+      "image": "blueberry_cheesecake.jpg"
+  },
+  {
+      "name": "Red Velvet Cheesecake",
+      "description": "Cheesecake with red velvet flavor.",
+      "price": "₹90",
+      "image": "red_velvet_cheesecake.jpg"
+  },
+  {
+      "name": "Chocolate Cheesecake",
+      "description": "Cheesecake with chocolate flavor.",
+      "price": "₹100",
+      "image": "chocolate_cheesecake.jpg"
+  },
+  {
+      "name": "Opera",
+      "description": "A layered French cake.",
+      "price": "₹100",
+      "image": "opera.jpg"
+  },
+  {
+      "name": "Choco Lava",
+      "description": "Lava cake with chocolate filling.",
+      "price": "₹80",
+      "image": "choco_lava.jpg"
+  },
+  {
+      "name": "Chocolate Brownie",
+      "description": "Rich and indulgent chocolate brownie.",
+      "price": "₹150",
+      "image": "chocolate_brownie.jpg"
+  }
+]

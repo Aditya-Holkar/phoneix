@@ -1,46 +1,110 @@
 [
-    {
+  {
       "name": "Espresso",
       "description": "A shot of intense, rich espresso.",
-      "price": "₹50",
-      "image": "espresso.jpg"
-    },
-    {
-      "name": "Cappuccino",
-      "description": "Espresso with steamed milk and frothy foam.",
-      "price": "₹80",
-      "image": "cappuccino.jpg"
-    },
-    {
-      "name": "Latte",
-      "description": "Espresso with steamed milk and a small amount of foam.",
-      "price": "₹90",
-      "image": "latte.jpg"
-    },
-    {
-      "name": "Mocha",
-      "description": "Espresso with hot chocolate, milk, and whipped cream.",
-      "price": "₹100",
-      "image": "mocha.jpg"
-    },
-    {
+      "price": "₹49",
+      "image": "espresso.png"
+  },
+  {
+      "name": "Doppio",
+      "description": "A double shot of espresso.",
+      "price": "₹59",
+      "image": "doppio.png"
+  },
+  {
+      "name": "Black Coffee",
+      "description": "A straightforward black coffee.",
+      "price": "₹59",
+      "image": "black_coffee.png"
+  },
+  {
       "name": "Americano",
       "description": "Espresso with hot water for a lighter taste.",
-      "price": "₹70",
-      "image": "americano.jpg"
-    },
-    {
-      "name": "Iced Coffee",
-      "description": "Chilled coffee served over ice.",
-      "price": "₹60",
-      "image": "iced_coffee.jpg"
-    },
-    
-    {
-      "name": "Irish Coffee",
+      "price": "₹69",
+      "image": "americano.png"
+  },
+  {
+      "name": "Cappuccino",
+      "description": "Espresso with steamed milk and frothy foam.",
+      "price": "₹69",
+      "image": "cappuccino.png"
+  },
+  {
+      "name": "Latte",
+      "description": "Espresso with steamed milk and a small amount of foam.",
+      "price": "₹69",
+      "image": "latte.png"
+  },
+  {
+      "name": "Mocha",
+      "description": "Espresso with hot chocolate, milk, and whipped cream.",
+      "price": "₹89",
+      "image": "mocha.png"
+  },
+  {
+      "name": "Hazelnut",
+      "description": "Coffee with hazelnut flavor.",
+      "price": "₹89",
+      "image": "hazelnut.png"
+  },
+  {
+      "name": "Irish",
       "description": "Coffee with Irish whiskey, sugar, and cream.",
-      "price": "₹120",
-      "image": "irish_coffee.jpg"
-    }
-  ]
-  
+      "price": "₹89",
+      "image": "irish.png"
+  },
+  {
+      "name": "Tiramisu",
+      "description": "Coffee with tiramisu flavor.",
+      "price": "₹89",
+      "image": "tiramisu.png"
+  },
+  {
+      "name": "Vanilla",
+      "description": "Coffee with vanilla flavor.",
+      "price": "₹89",
+      "image": "vanilla.png"
+  },
+  {
+      "name": "White Chocolate",
+      "description": "Coffee with white chocolate flavor.",
+      "price": "₹109",
+      "image": "white_chocolate.png"
+  },
+  {
+      "name": "Hot Chocolate",
+      "description": "Rich and creamy hot chocolate.",
+      "price": "₹99",
+      "image": "hot_chocolate.png"
+  },
+  {
+      "name": "Rose",
+      "description": "Coffee with a hint of rose flavor.",
+      "price": "₹99",
+      "image": "rose.png"
+  },
+  {
+      "name": "Caramel",
+      "description": "Coffee with caramel flavor.",
+      "price": "₹99",
+      "image": "caramel.png"
+  },
+  {
+      "name": "Almond",
+      "description": "Coffee with almond flavor.",
+      "price": "₹99",
+      "image": "almond.png"
+  },
+  {
+      "name": "Biscoff",
+      "description": "Coffee with Biscoff flavor.",
+      "price": "₹99",
+      "image": "biscoff.png"
+  },
+  {
+      "name": "Spanish",
+      "description": "A Spanish-style coffee.",
+      "price": "₹119",
+      "image": "spanish.png"
+  }
+]

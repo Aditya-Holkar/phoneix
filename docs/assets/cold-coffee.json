@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Cold Coffee",
+        "description": "Chilled coffee served cold.",
+        "price": "₹85",
+        "image": "Cold-Coffee.png"
+    },
+    {
+        "name": "Iced Americano",
+        "description": "Chilled Americano served over ice.",
+        "price": "₹89",
+        "image": "iced_americano.png"
+    },
+    {
+        "name": "Mocha",
+        "description": "Espresso with hot chocolate, milk, and whipped cream.",
+        "price": "₹95",
+        "image": "mocha(2).png"
+    },
+    {
+        "name": "Hazelnut",
+        "description": "Coffee with hazelnut flavor.",
+        "price": "₹95",
+        "image": "hazelnut(2).png"
+    },
+    {
+        "name": "Irish",
+        "description": "Coffee with Irish whiskey, sugar, and cream.",
+        "price": "₹95",
+        "image": "irish(2).png"
+    },
+    {
+        "name": "Tiramisu",
+        "description": "Coffee with tiramisu flavor.",
+        "price": "₹95",
+        "image": "tiramisu(2).png"
+    },
+    {
+        "name": "Vanilla",
+        "description": "Coffee with vanilla flavor.",
+        "price": "₹95",
+        "image": "vanilla(2).png"
+    },
+    {
+        "name": "Rose",
+        "description": "Coffee with a hint of rose flavor.",
+        "price": "₹110",
+        "image": "rose(2).png"
+    },
+    {
+        "name": "Caramel",
+        "description": "Coffee with caramel flavor.",
+        "price": "₹110",
+        "image": "caramel(2).png"
+    },
+    {
+        "name": "Almond",
+        "description": "Coffee with almond flavor.",
+        "price": "₹110",
+        "image": "almond(2).png"
+    },
+    {
+        "name": "Spanish",
+        "description": "A Spanish-style coffee.",
+        "price": "₹110",
+        "image": "spanish(2).png"
+    },
+    {
+        "name": "Lavender",
+        "description": "Lavender flavored coffee.",
+        "price": "₹110",
+        "image": "lavender(2).png"
+    },
+    {
+        "name": "Coconut",
+        "description": "Coffee with coconut flavor.",
+        "price": "₹110",
+        "image": "coconut(2).png"
+    }
+]
